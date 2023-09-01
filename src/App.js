@@ -1,4 +1,4 @@
-import React, { useReducer } from 'react';
+import React from 'react';
 import {useDispatch, useSelector} from 'react-redux';
 import {User_Add, User_Delete} from '../src/redux/action/userActions';
 
