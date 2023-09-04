@@ -1,8 +1,7 @@
 // App.js
 import React, { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-//import { addPerson, deletePerson, updatePerson } from './redux/action/actions';
-import { addPerson, deletePerson, updatePerson } from '../src/redux/action/actions';
+import { addPerson, deletePerson, updatePerson } from './redux/action/actions';
 
 const App = () => {
   const dispatch = useDispatch();
